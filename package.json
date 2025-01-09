@@ -1,0 +1,27 @@
+{
+  "name": "valaxy-blog",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:ssg",
+    "build:spa": "valaxy build",
+    "build:ssg": "valaxy build --ssg",
+    "dev": "valaxy",
+    "rss": "valaxy rss",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@newpanjing/datav-vue3": "0.0.0-alpha.0",
+    "aplayer": "^1.10.1",
+    "less": "^4.2.1",
+    "valaxy": "0.22.6",
+    "valaxy-addon-live2d": "^0.3.0",
+    "valaxy-addon-waline": "^0.2.0",
+    "valaxy-theme-yun": "0.22.6"
+  },
+  "devDependencies": {
+    "@iconify-json/ri": "^1.2.5",
+    "typescript": "^5.7.2"
+  }
+}
