@@ -1,5 +1,5 @@
 ---
-title: Hello, Valaxy!
+title: Hello, World!
 date: 2022-04-01
 updated: 2022-04-01
 categories: Valaxy

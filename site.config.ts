@@ -16,9 +16,9 @@ export default defineSiteConfig({
   comment:{
     enable:true
   },
-  favicon: 'https://www.yunyoujun.cn/favicon.svg',
+  favicon: 'https://s2.loli.net/2025/01/05/BGIvtD6UbMqQAnN.jpg',
   lastUpdated: true,
-  description: '希望能成为一个有趣的人',
+  description: '世界很大，我们很小，但只要心中有光，就能照亮自己的路。',
   search: {
     enable: true,
   },
@@ -55,7 +55,7 @@ export default defineSiteConfig({
     },
     {
       name: '网易云音乐',
-      link: 'https://music.163.com/',
+      link: 'https://music.163.com/#/user/home?id=8919414798',
       icon: 'i-ri-netease-cloud-music-line',
       color: '#C20C0C',
     },

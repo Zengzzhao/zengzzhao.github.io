@@ -3,6 +3,8 @@ import { onMounted } from 'vue';
 import YunFooter from 'valaxy-theme-yun/components/YunFooter.vue'
 import 'aplayer/dist/APlayer.min.css';
 import APlayer from 'aplayer';
+import { useScriptTag } from '@vueuse/core'
+useScriptTag(`//letere-gzj.github.io/hugo-stack/p/hugo/custom-background/sakura.js`)
 
 onMounted(() => {
     const ap = new APlayer({

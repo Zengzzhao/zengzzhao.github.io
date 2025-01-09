@@ -39,12 +39,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-code-s-slash-fill',
         color: '',
       },
-      {
-        name: '我的小伙伴们',
-        url: '/links/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
-      },
     ],
 
     footer: {
@@ -60,25 +54,23 @@ export default defineValaxyConfig<UserThemeConfig>({
       url: 'https://s2.loli.net/2025/01/07/UCvIpoudfNGDBmT.jpg',
       dark: 'https://s2.loli.net/2025/01/07/ckTfOXmRojZaStD.jpg'
     },
-    say:{
-      enable:true,
-      api:'',
-      hitokoto:{
-        enable:true,
-        api:"https://v1.hitokoto.cn"
+    say: {
+      enable: true,
+      api: '',
+      hitokoto: {
+        enable: true,
+        api: "https://v1.hitokoto.cn"
       }
     }
   },
   addons: [
     addonWaline({
-      serverURL: 'https://walinecomment-68jnasvqd-zengzzhaos-projects.vercel.app/',
-      emoji: [
-        '//unpkg.com/@waline/emojis@1.2.0/weibo',
-        '//unpkg.com/@waline/emojis@1.2.0/soul-emoji',
-      ],
+      serverURL: 'walinecomment-5292.vercel.app',
+      copyright: false,
+      
     }),
     addonLive2d({
-      enableLive2D: ['heimao','baimao','girl1','girl2','girl3','girl4'],
+      enableLive2D: ['heimao', 'baimao', 'girl1', 'girl2', 'girl3', 'girl4'],
       live2DCollection: {
         heimao: {
           message: '黑猫',
