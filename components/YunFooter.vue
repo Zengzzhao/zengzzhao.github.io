@@ -4,7 +4,13 @@ import YunFooter from 'valaxy-theme-yun/components/YunFooter.vue'
 import 'aplayer/dist/APlayer.min.css';
 import APlayer from 'aplayer';
 import { useScriptTag } from '@vueuse/core'
-useScriptTag(`//letere-gzj.github.io/hugo-stack/p/hugo/custom-background/sakura.js`)
+useScriptTag(
+    '/sakura.js',
+    () => {
+        console.log('Script loaded successfully!')
+    },
+    { async: true }
+)
 
 onMounted(() => {
     const ap = new APlayer({
@@ -21,13 +27,13 @@ onMounted(() => {
         ]
     });
 });
-
 </script>
 
 <template>
     <YunFooter>
+        <business-card></business-card>
         <div style="display: flex; justify-content: center;">
-            <img src="https://count.getloli.com/@:ZengziZhao?theme=booru-twifanartsfw" alt="Ciallo～(∠・ω< )⌒★">
+            <img src="https://count.getloli.com/@:ZengziZhao?theme=booru-twifanartsfw" alt="Zzz">
         </div>
         <div id="aplayer"></div>
     </YunFooter>

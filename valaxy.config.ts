@@ -30,7 +30,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     fireworks: {
       enable: true,
-      colors: ['#FF1461', '#18FF92', '#5A87FF',]
+      colors: ['#F6A4B5', '#888E8E', '#BFCED0']
     },
     pages: [
       {

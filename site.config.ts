@@ -13,6 +13,9 @@ export default defineSiteConfig({
       message: '锻炼中...'
     }
   },
+  vanillaLazyload:{
+    enable:true
+  },
   comment:{
     enable:true
   },

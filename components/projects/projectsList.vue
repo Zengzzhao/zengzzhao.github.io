@@ -74,7 +74,6 @@ export default {
 
     .projectItemContainer {
         width: 100%;
-        height: 300px;
         margin-top: 100px;
 
         box-sizing: border-box;
@@ -83,16 +82,14 @@ export default {
             display: flex;
             justify-content: flex-start;
             width: 100%;
-            height: 100%;
             padding: 30px;
+            box-sizing: border-box;
 
             .img {
                 width: 50%;
-                height: 100%;
 
                 img {
                     width: 100%;
-                    height: 100%;
                     border-radius: 10px;
                 }
             }

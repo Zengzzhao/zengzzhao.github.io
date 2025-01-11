@@ -11,6 +11,9 @@ importers:
       '@newpanjing/datav-vue3':
         specifier: 0.0.0-alpha.0
         version: 0.0.0-alpha.0(vue@3.5.13(typescript@5.7.2))
+      animate.css:
+        specifier: ^4.1.1
+        version: 4.1.1
       aplayer:
         specifier: ^1.10.1
         version: 1.10.1
@@ -1626,6 +1629,9 @@ packages:
 
   ajv@6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
+
+  animate.css@4.1.1:
+    resolution: {integrity: sha512-+mRmCTv6SbCmtYJCN4faJMNFVNN5EuCTTprDTAo7YzIGji2KADmakjVA3+8mVDkZ2Bf09vayB35lSQIex2+QaQ==}
 
   animejs@3.2.2:
     resolution: {integrity: sha512-Ao95qWLpDPXXM+WrmwcKbl6uNlC5tjnowlaRYtuVDHHoygjtIPfDUoK9NthrlZsQSKjZXlmji2TrBUAVbiH0LQ==}
@@ -5840,6 +5846,8 @@ snapshots:
       fast-json-stable-stringify: 2.1.0
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
+
+  animate.css@4.1.1: {}
 
   animejs@3.2.2: {}
 

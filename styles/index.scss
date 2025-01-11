@@ -1,1 +1,25 @@
 // you can custom css here
+// default光标图片
+body,
+html,
+.article-content img {
+  cursor: url(https://s2.loli.net/2025/01/11/HoT4CRYsUJzhxbr.png),auto;
+}
+
+// pointer光标图片
+a:hover,
+button:hover,
+.copyCodeButton:hover,
+#dark-mode-toggle {
+  cursor: url(https://s2.loli.net/2025/01/11/AJTbmqzBF7XyuVP.png),auto;
+}
+
+// text光标图片
+input:hover,
+.site-description,
+.article-subtitle,
+.article-content span,
+.article-content li,
+.article-content p {
+  cursor: url(https://s2.loli.net/2025/01/11/sNBDAlFp3ZWr4J7.png),auto;
+}
