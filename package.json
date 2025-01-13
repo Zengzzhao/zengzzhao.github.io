@@ -13,10 +13,13 @@
   },
   "dependencies": {
     "@newpanjing/datav-vue3": "0.0.0-alpha.0",
+    "@waline/client": "3.4.1",
     "animate.css": "^4.1.1",
     "aplayer": "^1.10.1",
+    "jquery": "^3.7.1",
     "less": "^4.2.1",
     "valaxy": "0.22.6",
+    "valaxy-addon-components": "^0.1.0",
     "valaxy-addon-live2d": "^0.3.0",
     "valaxy-addon-waline": "^0.2.0",
     "valaxy-theme-yun": "0.22.6"

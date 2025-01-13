@@ -2,4 +2,4 @@
 title: 关于我
 ---
 
-一个网页、一句话也介绍不了我.......
+<ipWelcome></ipWelcome>

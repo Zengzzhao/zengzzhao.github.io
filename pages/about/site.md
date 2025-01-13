@@ -1,8 +1,8 @@
 ---
 title: 关于站点
 ---
-
 ## 更新日志
+- 2025-1-12：评论区完善
 - 2025-1-11：樱花背景、自定义光标、通知打字机特效、商业明信片完成
 - 2025-1-9：评论区、项目部署
 - 2025-1-8：音乐播放器、live2d、一言、底层使用vue插件完成
@@ -23,4 +23,7 @@ title: 关于站点
         炫酷边框[DataV](https://github.com/DataV-Team/DataV)、
         动态背景樱花特效[sakura.js](https://letere-gzj.github.io/hugo-stack/p/hugo/custom-background/)、
         [自定义光标](https://letere-gzj.github.io/hugo-stack/p/hugo/custom-stack-theme/#2-%E4%BF%AE%E6%94%B9%E9%BC%A0%E6%A0%87%E6%A0%B7%E5%BC%8F)、
-        [商业明信片](https://akilar.top/)
+        [商业明信片](https://akilar.top/)、
+        [jQuery的异步请求](https://github.com/jquery/jquery)、
+        [腾讯位置服务](https://lbs.qq.com/)
+- 参考以下博客：

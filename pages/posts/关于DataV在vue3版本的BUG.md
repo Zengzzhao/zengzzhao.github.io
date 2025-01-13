@@ -1,5 +1,5 @@
 ---
-title: 关于DataVz在vue3版本的BUG
+title: 关于DataV在vue3版本的BUG
 date: 2025-01-08
 updated: 2025-01-08
 categories: vue3
@@ -8,7 +8,7 @@ tags:
   - DataV
 ---
 
-# 关于DataVz在vue3版本的BUG
+# 关于DataV在vue3版本的BUG
 
 > BUG说明：
 >

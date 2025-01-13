@@ -2,6 +2,7 @@ import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 import { addonLive2d } from 'valaxy-addon-live2d'
 import { addonWaline } from 'valaxy-addon-waline'
+import { addonComponents } from 'valaxy-addon-components'
 
 // add icons what you will need
 const safelist = [
@@ -67,8 +68,11 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonWaline({
       serverURL: 'walinecomment-5292.vercel.app',
       copyright: false,
-      
+      locale:{
+        admin: '博主',
+      }
     }),
+    addonComponents(),
     addonLive2d({
       enableLive2D: ['heimao', 'baimao', 'girl1', 'girl2', 'girl3', 'girl4'],
       live2DCollection: {
@@ -101,4 +105,11 @@ export default defineValaxyConfig<UserThemeConfig>({
     })
   ],
   unocss: { safelist },
+  markdown: {
+    theme: {
+      light: 'github-light',
+      dark: 'github-dark',
+    },
+    lineNumbers: true,
+  }
 })

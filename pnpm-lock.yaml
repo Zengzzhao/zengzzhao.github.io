@@ -11,18 +11,27 @@ importers:
       '@newpanjing/datav-vue3':
         specifier: 0.0.0-alpha.0
         version: 0.0.0-alpha.0(vue@3.5.13(typescript@5.7.2))
+      '@waline/client':
+        specifier: 3.4.1
+        version: 3.4.1(typescript@5.7.2)
       animate.css:
         specifier: ^4.1.1
         version: 4.1.1
       aplayer:
         specifier: ^1.10.1
         version: 1.10.1
+      jquery:
+        specifier: ^3.7.1
+        version: 3.7.1
       less:
         specifier: ^4.2.1
         version: 4.2.1
       valaxy:
         specifier: 0.22.6
         version: 0.22.6(@babel/parser@7.26.3)(@nuxt/kit@3.15.0(rollup@4.29.1))(@types/markdown-it@14.1.2)(@types/node@22.10.5)(@vue/compiler-dom@3.5.13)(axios@1.7.9)(eslint@9.17.0(jiti@2.4.2))(less@4.2.1)(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(unhead@1.11.14)(yaml@2.7.0)
+      valaxy-addon-components:
+        specifier: ^0.1.0
+        version: 0.1.0
       valaxy-addon-live2d:
         specifier: ^0.3.0
         version: 0.3.0
@@ -1535,11 +1544,11 @@ packages:
   '@vueuse/core@10.11.1':
     resolution: {integrity: sha512-guoy26JQktXPcz+0n3GukWIy/JDNKti9v6VEMu6kV2sYBsWuGiTU8OWdg+ADfUbHg3/3DlqySDe7JmdHrktiww==}
 
+  '@vueuse/core@12.0.0':
+    resolution: {integrity: sha512-C12RukhXiJCbx4MGhjmd/gH52TjJsc3G0E0kQj/kb19H3Nt6n1CA4DRWuTdWWcaFRdlTe0npWDS942mvacvNBw==}
+
   '@vueuse/core@12.0.0-beta.1':
     resolution: {integrity: sha512-+Z+qGQ0yi1ZA1xQvNQx2FUZiwonTluoK7PLucG+fUpyvclEWCuBn6VWbOvsYZq0HkXjFr/SJZ236/ksoXbc+kg==}
-
-  '@vueuse/core@12.3.0':
-    resolution: {integrity: sha512-cnV8QDKZrsyKC7tWjPbeEUz2cD9sa9faxF2YkR8QqNwfofgbOhmfIgvSYmkp+ttSvfOw4E6hLcQx15mRPr0yBA==}
 
   '@vueuse/integrations@12.0.0-beta.1':
     resolution: {integrity: sha512-JKcL9qOy4s52ToMncUaNIn6G97YtQDHy7LltT58MpDTaHS6GiAwXuC4grEhvLmddQuoRifg3hb3/J6h56NWnRw==}
@@ -1585,11 +1594,11 @@ packages:
   '@vueuse/metadata@10.11.1':
     resolution: {integrity: sha512-IGa5FXd003Ug1qAZmyE8wF3sJ81xGLSqTqtQ6jaVfkeZ4i5kS2mwQF61yhVqojRnenVew5PldLyRgvdl4YYuSw==}
 
+  '@vueuse/metadata@12.0.0':
+    resolution: {integrity: sha512-Yzimd1D3sjxTDOlF05HekU5aSGdKjxhuhRFHA7gDWLn57PRbBIh+SF5NmjhJ0WRgF3my7T8LBucyxdFJjIfRJQ==}
+
   '@vueuse/metadata@12.0.0-beta.1':
     resolution: {integrity: sha512-TL2nBO72j5U6U9ohIVoaf3DHaYtnCCOxEgweu8rLIbdRMcY69qTwZI+6XFSCWLLwW0anzuoj5OZns9KZIqvMEA==}
-
-  '@vueuse/metadata@12.3.0':
-    resolution: {integrity: sha512-M/iQHHjMffOv2npsw2ihlUx1CTiBwPEgb7DzByLq7zpg1+Ke8r7s9p5ybUWc5OIeGewtpY4Xy0R2cKqFqM8hFg==}
 
   '@vueuse/motion@2.2.6':
     resolution: {integrity: sha512-gKFktPtrdypSv44SaW1oBJKLBiP6kE5NcoQ6RsAU3InemESdiAutgQncfPe/rhLSLCtL4jTAhMmFfxoR6gm5LQ==}
@@ -1599,18 +1608,18 @@ packages:
   '@vueuse/shared@10.11.1':
     resolution: {integrity: sha512-LHpC8711VFZlDaYUXEBbFBCQ7GS3dVU9mjOhhMhXP6txTV4EhYQg/KGnQuvt/sPAtoUKq7VVUnL6mVtFoL42sA==}
 
+  '@vueuse/shared@12.0.0':
+    resolution: {integrity: sha512-3i6qtcq2PIio5i/vVYidkkcgvmTjCqrf26u+Fd4LhnbBmIT6FN8y6q/GJERp8lfcB9zVEfjdV0Br0443qZuJpw==}
+
   '@vueuse/shared@12.0.0-beta.1':
     resolution: {integrity: sha512-HuP0Yry3sOZwqcBjB/mTlYEjqcO0MpmheAWUq+RdMKKX4GaF8szkKu3b/MLHKjLGmeeEQKZvtSCfj+Xbg+GNMQ==}
-
-  '@vueuse/shared@12.3.0':
-    resolution: {integrity: sha512-X3YD35GUeW0d5Gajcwv9jdLAJTV2Jdb/Ll6Ii2JIYcKLYZqv5wxyLeKtiQkqWmHg3v0J0ZWjDUMVOw2E7RCXfA==}
 
   '@waline/api@1.0.0-alpha.8':
     resolution: {integrity: sha512-S6pgUUfv+gcXU3hiW3PNUwiUvPy7bXmmLB/bwdU3hN5YVT5Q7CxyVSLA3oJkrNO5lcisKK1GBPv0H2W1uB0eGA==}
     engines: {node: '>=18'}
 
-  '@waline/client@3.4.3':
-    resolution: {integrity: sha512-IlMw6QaWSAXj7U/y1MEWy5glBr96YQvf5Fwhj1/umw7HDU8VnmB7ViTzoocw0dGGr98C1P0SMYAronCV7Tp2fw==}
+  '@waline/client@3.4.1':
+    resolution: {integrity: sha512-BnqW45kWzFowAaHzrpDQhOlRLXT6e9v1v45nzO6R1jyNoTu/BcbFyPdzY83NejAtGwTDjFnX5R5lBOBh95m7pQ==}
     engines: {node: '>=18'}
 
   acorn-jsx@5.3.2:
@@ -2759,6 +2768,9 @@ packages:
     resolution: {integrity: sha512-rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==}
     hasBin: true
 
+  jquery@3.7.1:
+    resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
+
   js-base64@3.7.7:
     resolution: {integrity: sha512-7rCnleh0z2CkXhH67J8K1Ytz0b2Y+yxTPL+/KOJoa20hfnVQ/3/T6W/KflYI4bRHRagNeXeU2bkNGI3v1oS/lw==}
 
@@ -3844,6 +3856,9 @@ packages:
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
     hasBin: true
+
+  valaxy-addon-components@0.1.0:
+    resolution: {integrity: sha512-7uCJgUgc2JHISmz/UDQlhBqGSNW4QKmkiRlcwj5WhjhScC/KktK8JtADeKh6FCaAJHbjShovHB/9UPVtnTwORg==}
 
   valaxy-addon-live2d@0.3.0:
     resolution: {integrity: sha512-gSTbVG6eq1xUdxguZUswgCEAmDNDh8awBEFPcj9v9qfWEoPLHa74fc+T/ShRter4WcTbrhEfBY3h7Rs0REL8RQ==}
@@ -5745,20 +5760,20 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
+  '@vueuse/core@12.0.0(typescript@5.7.2)':
+    dependencies:
+      '@types/web-bluetooth': 0.0.20
+      '@vueuse/metadata': 12.0.0
+      '@vueuse/shared': 12.0.0(typescript@5.7.2)
+      vue: 3.5.13(typescript@5.7.2)
+    transitivePeerDependencies:
+      - typescript
+
   '@vueuse/core@12.0.0-beta.1(typescript@5.7.2)':
     dependencies:
       '@types/web-bluetooth': 0.0.20
       '@vueuse/metadata': 12.0.0-beta.1
       '@vueuse/shared': 12.0.0-beta.1(typescript@5.7.2)
-      vue: 3.5.13(typescript@5.7.2)
-    transitivePeerDependencies:
-      - typescript
-
-  '@vueuse/core@12.3.0(typescript@5.7.2)':
-    dependencies:
-      '@types/web-bluetooth': 0.0.20
-      '@vueuse/metadata': 12.3.0
-      '@vueuse/shared': 12.3.0(typescript@5.7.2)
       vue: 3.5.13(typescript@5.7.2)
     transitivePeerDependencies:
       - typescript
@@ -5778,9 +5793,9 @@ snapshots:
 
   '@vueuse/metadata@10.11.1': {}
 
-  '@vueuse/metadata@12.0.0-beta.1': {}
+  '@vueuse/metadata@12.0.0': {}
 
-  '@vueuse/metadata@12.3.0': {}
+  '@vueuse/metadata@12.0.0-beta.1': {}
 
   '@vueuse/motion@2.2.6(rollup@4.29.1)(vue@3.5.13(typescript@5.7.2))':
     dependencies:
@@ -5806,13 +5821,13 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/shared@12.0.0-beta.1(typescript@5.7.2)':
+  '@vueuse/shared@12.0.0(typescript@5.7.2)':
     dependencies:
       vue: 3.5.13(typescript@5.7.2)
     transitivePeerDependencies:
       - typescript
 
-  '@vueuse/shared@12.3.0(typescript@5.7.2)':
+  '@vueuse/shared@12.0.0-beta.1(typescript@5.7.2)':
     dependencies:
       vue: 3.5.13(typescript@5.7.2)
     transitivePeerDependencies:
@@ -5820,9 +5835,9 @@ snapshots:
 
   '@waline/api@1.0.0-alpha.8': {}
 
-  '@waline/client@3.4.3(typescript@5.7.2)':
+  '@waline/client@3.4.1(typescript@5.7.2)':
     dependencies:
-      '@vueuse/core': 12.3.0(typescript@5.7.2)
+      '@vueuse/core': 12.0.0(typescript@5.7.2)
       '@waline/api': 1.0.0-alpha.8
       autosize: 6.0.1
       marked: 15.0.6
@@ -7089,6 +7104,8 @@ snapshots:
 
   jiti@2.4.2: {}
 
+  jquery@3.7.1: {}
+
   js-base64@3.7.7: {}
 
   js-tokens@4.0.0: {}
@@ -8334,6 +8351,8 @@ snapshots:
 
   uuid@9.0.1: {}
 
+  valaxy-addon-components@0.1.0: {}
+
   valaxy-addon-live2d@0.3.0:
     dependencies:
       pixi-live2d-display: 0.5.0-beta(pixi.js@7.4.2)
@@ -8343,7 +8362,7 @@ snapshots:
 
   valaxy-addon-waline@0.2.0(typescript@5.7.2)(valaxy@0.22.6(@babel/parser@7.26.3)(@nuxt/kit@3.15.0(rollup@4.29.1))(@types/markdown-it@14.1.2)(@types/node@22.10.5)(@vue/compiler-dom@3.5.13)(axios@1.7.9)(eslint@9.17.0(jiti@2.4.2))(less@4.2.1)(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(unhead@1.11.14)(yaml@2.7.0)):
     dependencies:
-      '@waline/client': 3.4.3(typescript@5.7.2)
+      '@waline/client': 3.4.1(typescript@5.7.2)
       valaxy: 0.22.6(@babel/parser@7.26.3)(@nuxt/kit@3.15.0(rollup@4.29.1))(@types/markdown-it@14.1.2)(@types/node@22.10.5)(@vue/compiler-dom@3.5.13)(axios@1.7.9)(eslint@9.17.0(jiti@2.4.2))(less@4.2.1)(postcss@8.4.49)(rollup@4.29.1)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(unhead@1.11.14)(yaml@2.7.0)
     transitivePeerDependencies:
       - typescript

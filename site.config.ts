@@ -16,6 +16,9 @@ export default defineSiteConfig({
   vanillaLazyload:{
     enable:true
   },
+  encrypt:{
+    enable:true
+  },
   comment:{
     enable:true
   },

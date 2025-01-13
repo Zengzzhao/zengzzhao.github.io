@@ -23,3 +23,31 @@ input:hover,
 .article-content p {
   cursor: url(https://s2.loli.net/2025/01/11/sNBDAlFp3ZWr4J7.png),auto;
 }
+// 评论区背景水墨图
+#wl-edit {
+  background-image: url(https://s2.loli.net/2025/01/12/G18gJ9IFDvZbHls.png);
+  background-repeat: no-repeat;
+  background-position: right 0 bottom -17px;
+  background-size: 137px;
+  min-height: 12em;
+  transition: background-position .2s
+}
+
+#wl-edit:focus {
+    background-position: right 0 bottom -180px
+}
+// 评论区的登录按钮隐藏
+.wl-info button[type="button"].wl-btn{
+  display: none;
+}
+/* 帧率检测 */
+#fps {
+  position: fixed;
+  right: 10px;
+  bottom: 90px;
+  z-index: 1919810;
+  background-color: rgba(252,125,139, 0.2);
+  backdrop-filter: var(--backdrop-filter);
+  padding: 4px;
+  border-radius: 4px;
+}
