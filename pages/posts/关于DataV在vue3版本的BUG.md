@@ -3,9 +3,12 @@ title: 关于DataV在vue3版本的BUG
 date: 2025-01-08
 updated: 2025-01-08
 categories: vue3
+end: true
 tags:
   - vue3
   - DataV
+time_warning: true
+codeHeightLimit: 300
 ---
 
 # 关于DataV在vue3版本的BUG

@@ -4,13 +4,7 @@ import YunFooter from 'valaxy-theme-yun/components/YunFooter.vue'
 import 'aplayer/dist/APlayer.min.css';
 import APlayer from 'aplayer';
 import { useScriptTag } from '@vueuse/core'
-useScriptTag(
-    '/sakura.js',
-    () => {
-        console.log('Script loaded successfully!')
-    },
-    { async: true }
-)
+useScriptTag('/sakura.js')
 
 onMounted(() => {
     const ap = new APlayer({

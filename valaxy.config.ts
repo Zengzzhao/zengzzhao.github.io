@@ -3,6 +3,7 @@ import { defineValaxyConfig } from 'valaxy'
 import { addonLive2d } from 'valaxy-addon-live2d'
 import { addonWaline } from 'valaxy-addon-waline'
 import { addonComponents } from 'valaxy-addon-components'
+import { addonMeting } from 'valaxy-addon-meting'
 
 // add icons what you will need
 const safelist = [
@@ -71,6 +72,9 @@ export default defineValaxyConfig<UserThemeConfig>({
       locale:{
         admin: '博主',
       }
+    }),
+    addonMeting({
+      global: true,
     }),
     addonComponents(),
     addonLive2d({

@@ -21,6 +21,7 @@
     "valaxy": "0.22.6",
     "valaxy-addon-components": "^0.1.0",
     "valaxy-addon-live2d": "^0.3.0",
+    "valaxy-addon-meting": "^0.1.4",
     "valaxy-addon-waline": "^0.2.0",
     "valaxy-theme-yun": "0.22.6"
   },

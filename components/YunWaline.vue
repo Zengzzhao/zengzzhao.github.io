@@ -1,8 +1,7 @@
 <script lang="ts" setup>
-import { onMounted } from 'vue'
+import { onMounted, onBeforeUnmount } from 'vue'
 import { useAddonWaline } from 'valaxy-addon-waline'
-import { useAppStore } from 'valaxy'
-const appStore = useAppStore()
+
 const addon = useAddonWaline()
 onMounted(() => {
   const email = document.getElementById('wl-mail');
@@ -24,7 +23,29 @@ onMounted(() => {
       img.src = qqImg;
     }
   }
+  window.addEventListener('storage', handleStorageChange);
+  const span = document.querySelector('.comment-tooltip span');
+  if (localStorage.getItem('vueuse-color-scheme') == 'dark') {
+    span.style.color = '#fff';
+  } else {
+    span.style.color = '#333333'
+  }
+
 })
+onBeforeUnmount(() => {
+  window.removeEventListener('storage', handleStorageChange);
+})
+function handleStorageChange(event) {
+  const span = document.querySelector('.comment-tooltip span');
+  if (event.key === 'vueuse-color-scheme') {
+    if (event.newValue == 'dark') {
+      span.style.color = '#fff';
+    }else{
+      span.style.color = '#333333'
+    }
+  }
+
+}
 
 </script>
 
