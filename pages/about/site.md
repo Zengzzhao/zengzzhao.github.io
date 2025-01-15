@@ -30,7 +30,7 @@ title: 关于站点
         [腾讯位置服务](https://lbs.qq.com/)、
         [帧率检测](https://github.com/fomalhaut1998/hexo-theme-Fomalhaut)、
         [信封弹出](https://www.bilibili.com/opus/763228659534266418)
-- 参考以下博客：[Himekana's](https://www.nanoka.top/)、
+- 参考以下博客：[Sakura Yumine](https://www.nanoka.top/)、
                 [云游君](https://www.yunyoujun.cn/)、
                 [夜明前的琉璃色](https://spreadwings-sky.github.io/)、
                 [山暮云秋](https://blog.muyun.space/)、
@@ -43,7 +43,7 @@ title: 关于站点
 ## 未来的工作
 - 类似[Fomalhaut🥝](https://www.fomal.cc/)的昼夜模式更换时的动画
 - 类似[Akilarの糖果屋](https://akilar.top/)的全屏加载特效
-- 搜索、中英语言转换、waline评论区优化（包含评论区markdown主题优化）、博客文章markdown主题以及代码块主题样式、
+- algolia搜索、中英语言转换、waline评论区优化（包含评论区markdown主题优化）、博客文章markdown主题以及代码块主题样式
 - 类似[毛先生](https://www.hairy.blog/)首页下方的鱼跳动特效
 
 

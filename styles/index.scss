@@ -36,10 +36,6 @@ input:hover,
 #wl-edit:focus {
     background-position: right 0 bottom -180px
 }
-// 评论区的登录按钮隐藏
-.wl-info button[type="button"].wl-btn{
-  display: none;
-}
 /* 帧率检测 */
 #fps {
   position: fixed;

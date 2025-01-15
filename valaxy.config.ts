@@ -42,7 +42,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '',
       },
     ],
-
     footer: {
       since: 2024,
       beian: {
@@ -71,6 +70,8 @@ export default defineValaxyConfig<UserThemeConfig>({
       copyright: false,
       locale:{
         admin: '博主',
+        sofa: '来发评论吧~',
+        placeholder: '📧本站已开启邮件通知，回复您评论的同时会email到您的邮箱，因此请确保邮箱的有效性',
       }
     }),
     addonMeting({

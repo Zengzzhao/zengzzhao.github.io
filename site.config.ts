@@ -134,5 +134,6 @@ export default defineSiteConfig({
   },
   statistics:{
     enable:true
-  }
+  },
+  codeHeightLimit:300
 })
