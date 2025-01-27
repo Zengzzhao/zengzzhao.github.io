@@ -28,6 +28,7 @@ declare module 'vue-router/auto-routes' {
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/关于DataV在vue3版本的BUG': RouteRecordInfo<'/posts/关于DataV在vue3版本的BUG', '/posts/关于DataV在vue3版本的BUG', Record<never, never>, Record<never, never>>,
+    '/posts/毛泽东诗词鉴赏': RouteRecordInfo<'/posts/毛泽东诗词鉴赏', '/posts/毛泽东诗词鉴赏', Record<never, never>, Record<never, never>>,
     '/posts/css/打字机特效': RouteRecordInfo<'/posts/css/打字机特效', '/posts/css/打字机特效', Record<never, never>, Record<never, never>>,
     '/posts/css/商业明信片特效': RouteRecordInfo<'/posts/css/商业明信片特效', '/posts/css/商业明信片特效', Record<never, never>, Record<never, never>>,
     '/posts/css/信封特效': RouteRecordInfo<'/posts/css/信封特效', '/posts/css/信封特效', Record<never, never>, Record<never, never>>,
