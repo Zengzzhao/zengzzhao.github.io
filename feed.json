@@ -1,0 +1,122 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "某曌的记事本",
+    "home_page_url": "https://valaxy.site/",
+    "feed_url": "https://valaxy.site/feed.json",
+    "description": "世界很大，我们很小，但只要心中有光，就能照亮自己的路。",
+    "icon": "https://s2.loli.net/2025/01/05/BGIvtD6UbMqQAnN.jpg",
+    "author": {
+        "name": "某曌在努力",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h1>万历皇帝</h1>\n<p>注重礼仪</p>\n<p>万历时期宫廷开销大，但是给官员的薪资微薄</p>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/read/万历十五年\" target=\"_blank\">https://valaxy.site/posts/read/万历十五年</a> 阅读全文。</p>",
+            "url": "https://valaxy.site/posts/read/万历十五年",
+            "title": "万历十五年",
+            "date_modified": "2025-08-11T00:00:00.000Z",
+            "date_published": "2025-08-11T00:00:00.000Z",
+            "author": {
+                "name": "某曌在努力",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>佳能R50摄影学习</h1>\n<h2>各个按钮的含义</h2>\n<p>A+：自动挡</p>\n<p>P：自动曝光，自动设置快门速度与光圈</p>\n<p>TV：自动曝光，自动设置光圈，手动设置快门，</p>\n<p>AV：自动曝光，自动设置快门，手动设置光圈，</p>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/live/佳能R50摄影学习\" target=\"_blank\">https://valaxy.site/posts/live/佳能R50摄影学习</a> 阅读全文。</p>",
+            "url": "https://valaxy.site/posts/live/佳能R50摄影学习",
+            "title": "佳能R50摄影学习",
+            "date_modified": "2025-08-09T00:00:00.000Z",
+            "date_published": "2025-08-09T00:00:00.000Z",
+            "author": {
+                "name": "某曌在努力",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>标题</h1>\n<p>按下xxx的“快进键”，跑出xxx的”加速度“</p>\n<p>激活科技创新的”一池春水“</p>\n<p>人民城市，”城“载幸福</p>\n<p>打好乡村振兴的”组合拳“</p>\n<p>办好民生事，枝叶总关情</p>\n<p>答好xxx时代考题</p>\n<p>谱写</p>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/read/申论素材\" target=\"_blank\">https://valaxy.site/posts/read/申论素材</a> 阅读全文。</p>",
+            "url": "https://valaxy.site/posts/read/申论素材",
+            "title": "申论素材",
+            "date_modified": "2026-02-16T00:00:00.000Z",
+            "date_published": "2025-02-16T00:00:00.000Z",
+            "author": {
+                "name": "某曌在努力",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>五古 挽易昌陶</h2>\n<p>1915年日本向袁世凯提出“二十一条”，袁世凯基本接收，激起了国人的愤慨与声讨。青年毛泽东在《明耻篇》发出呐喊：何以报仇，唯我学子。之后一师为病逝不久的易昌陶同学举办追悼会</p>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/read/毛泽东诗词鉴赏\" target=\"_blank\">https://valaxy.site/posts/read/毛泽东诗词鉴赏</a> 阅读全文。</p>",
+            "url": "https://valaxy.site/posts/read/毛泽东诗词鉴赏",
+            "title": "毛泽东诗词鉴赏",
+            "date_modified": "2025-01-27T00:00:00.000Z",
+            "date_published": "2025-01-27T00:00:00.000Z",
+            "author": {
+                "name": "某曌在努力",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>效果展示</h2>\n<p><message></message></p>\n<h2>html</h2>\n<pre><code class=\"language-html\">    &lt;div class=&quot;letter-image&quot;&gt;\n        &lt;div class=&quot;ani</code></pre>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/css/信封特效\" target=\"_blank\">https://valaxy.site/posts/css/信封特效</a> 阅读全文。</p>",
+            "url": "https://valaxy.site/posts/css/信封特效",
+            "title": "信封特效",
+            "date_modified": "2025-01-14T00:00:00.000Z",
+            "date_published": "2025-01-14T00:00:00.000Z",
+            "author": {
+                "name": "某曌在努力",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>效果展示</h2>\n<p><businessCard></businessCard></p>\n<h2>html</h2>\n<pre><code class=\"language-html\">&lt;div class=&quot;business-center&quot;&gt;\n    &lt;div cla</code></pre>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/css/商业明信片特效\" target=\"_blank\">https://valaxy.site/posts/css/商业明信片特效</a> 阅读全文。</p>",
+            "url": "https://valaxy.site/posts/css/商业明信片特效",
+            "title": "商业明信片特效",
+            "date_modified": "2025-01-11T00:00:00.000Z",
+            "date_published": "2025-01-11T00:00:00.000Z",
+            "author": {
+                "name": "某曌在努力",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>效果展示</h2>\n<p><YunNotice></YunNotice></p>\n<h2>html</h2>\n<pre><code class=\"language-html\">&lt;div&gt;\n    &lt;h1 class=&quot;typing&quot;&gt;\n        本站不定时更新...\n</code></pre>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/css/打字机特效\" target=\"_blank\">https://valaxy.site/posts/css/打字机特效</a> 阅读全文。</p>",
+            "url": "https://valaxy.site/posts/css/打字机特效",
+            "title": "打字机特效",
+            "date_modified": "2025-01-11T00:00:00.000Z",
+            "date_published": "2025-01-11T00:00:00.000Z",
+            "author": {
+                "name": "某曌在努力",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>关于DataV在vue3版本的BUG</h1>\n<blockquote>\n<p>BUG说明：</p>\n<p>Module not found: Error: Can't resolve '@dataview/datav-vue3'</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/关于DataV在vue3版本的BUG\" target=\"_blank\">https://valaxy.site/posts/关于DataV在vue3版本的BUG</a> 阅读全文。</p>",
+            "url": "https://valaxy.site/posts/关于DataV在vue3版本的BUG",
+            "title": "关于DataV在vue3版本的BUG",
+            "date_modified": "2025-01-08T00:00:00.000Z",
+            "date_published": "2025-01-08T00:00:00.000Z",
+            "author": {
+                "name": "某曌在努力",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p><meting-js\n id=\"22200079\"\n server=\"netease\"\n type=\"song\"><br>\n</meting-js></p>\n<h2>前世今生</h2>\n<p>24年初考研复试时，偶然在复试笔试复习</p>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/live/hello-world\" target=\"_blank\">https://valaxy.site/posts/live/hello-world</a> 阅读全文。</p>",
+            "url": "https://valaxy.site/posts/live/hello-world",
+            "title": "Hello, World!",
+            "date_modified": "2025-01-04T00:00:00.000Z",
+            "date_published": "2025-01-04T00:00:00.000Z",
+            "author": {
+                "name": "某曌在努力",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

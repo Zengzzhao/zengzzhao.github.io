@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://s2.loli.net/2025/01/05/BGIvtD6UbMqQAnN.jpg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/app.CiZxJCX8.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/framework.COmLX_CU.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.DKB-BOv1.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.CPPL_t8N.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.DJhGtnH1.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.CI_tprmh.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.DAWx69iu.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.D6qpKeA8.js">
+  <link rel="stylesheet" crossorigin href="/assets/app.CHpZ0cMf.css">
+</head>
+<body>
+  <div id="app"></div>
+  
+</body>
+</html>

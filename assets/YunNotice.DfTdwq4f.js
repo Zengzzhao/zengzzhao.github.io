@@ -1,0 +1,1 @@
+import"./chunks/vue-router.DKB-BOv1.js";import{a8 as s,aa as t,ac as c,af as e}from"./framework.COmLX_CU.js";const o={},a={class:"w-full px-4 flex-center"};function l(r,n){return t(),c("div",a,[...n[0]||(n[0]=[e("div",{class:"yun-notice w-full"},[e("div",null,[e("h1",{class:"typing"}," 本站不定时更新... ")])],-1)])])}const f=s(o,[["render",l]]);export{f as _};
